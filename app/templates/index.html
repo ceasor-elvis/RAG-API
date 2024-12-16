@@ -1,0 +1,170 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Welcome to RAG API
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://plus.unsplash.com/premium_photo-1682145730713-34bba6d3d14a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        header nav a:hover {
+            color: #ff6f61;
+        }
+        .container {
+            margin-top: 100px;
+            max-width: 1200px;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: left;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #ff6f61;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #ff3b2f;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <div class="logo">
+    RAG API
+   </div>
+   <nav>
+    <a href="/about">
+     About
+    </a>
+    <a href="/docs">
+     Docs
+    </a>
+    <a href="/contact">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <div class="container">
+   <div class="card">
+    <img alt="Illustration of API integration with various applications" height="200" src="https://storage.googleapis.com/a1aa/image/ddMQCdyEPPqDCh9vuWSQJHQESLX5rxaaEwKLc20Fn05FsUeJA.jpg" width="300"/>
+    <h3>
+     About RAG API
+    </h3>
+    <p>
+     Our RAG API is a powerful tool designed to help you integrate advanced functionalities into your applications with ease. Built on FastAPI, it ensures high performance and ease of use.
+    </p>
+   </div>
+   <div class="card">
+    <img alt="Illustration of documentation and guides" height="200" src="https://storage.googleapis.com/a1aa/image/uXUbLIBV6F4OPpulV9UZY2QI5KKzhYf771qeajMzAkDWwS5TA.jpg" width="300"/>
+    <h3>
+     Comprehensive Documentation
+    </h3>
+    <p>
+     Explore our comprehensive documentation to get started and make the most out of our API. We provide detailed guides, examples, and support to help you every step of the way.
+    </p>
+   </div>
+   <div class="card">
+    <img alt="Illustration of a user-friendly interface" height="200" src="https://storage.googleapis.com/a1aa/image/FfPtv2UJFN3RYqyrwyq8LcKD6WBE6Cw25sNLt9OPgkEKYp8JA.jpg" width="300"/>
+    <h3>
+     User-Friendly Interface
+    </h3>
+    <p>
+     Our API is designed with a user-friendly interface that makes it easy for developers of all skill levels to integrate and use. Get started quickly and efficiently.
+    </p>
+   </div>
+   <div class="card">
+    <img alt="Illustration of high performance and speed" height="200" src="https://storage.googleapis.com/a1aa/image/JUalfNioAiSPTaCIl2MNpW2Vv1nMUtrsDmQefShu98VrglynA.jpg" width="300"/>
+    <h3>
+     High Performance
+    </h3>
+    <p>
+     Built on FastAPI, our RAG API ensures high performance and speed, making it ideal for applications that require quick and efficient data processing.
+    </p>
+   </div>
+  </div>
+  <a class="cta-button" href="/docs">
+   Go to Docs
+  </a>
+  <footer>
+   © 2023 RAG API. All rights reserved.
+  </footer>
+ </body>
+</html>
